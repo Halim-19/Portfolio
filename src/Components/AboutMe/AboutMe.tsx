@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import beeImg from "/AboutPics/bee.jpg";
 import soutnance from "/AboutPics/soutnance.jpg";
 import child from "/AboutPics/child.jpeg";
@@ -6,7 +5,7 @@ import dev from "/AboutPics/dev.jpg";
 import { TiltCard } from "../HoverCard/HoverCard";
 import { Chip } from "./ChipTab";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import { useState } from "react";
 
 function myAge() {
   let d = new Date();

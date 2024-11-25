@@ -1,5 +1,4 @@
 import React, { ReactNode, useRef } from "react";
-import { FiMousePointer } from "react-icons/fi";
 import {
   motion,
   useMotionTemplate,

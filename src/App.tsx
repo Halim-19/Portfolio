@@ -3,7 +3,6 @@ import React from "react";
 import AppRoutes from "./Routes";
 import "./App.css";
 import blob from "/blob.gif";
-import blob1 from "/blob1.gif";
 import { motion } from "framer-motion";
 
 const App: React.FC = () => {

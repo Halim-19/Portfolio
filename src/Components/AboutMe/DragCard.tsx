@@ -1,4 +1,4 @@
-import React, { MutableRefObject, useRef, useState } from "react";
+import { MutableRefObject, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
 import beeImg from "/AboutPics/bee.jpg";

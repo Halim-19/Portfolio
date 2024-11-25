@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
         "cvroPlCxi6T88sgGh"
       )
       .then(
-        (result) => {
+        () => {
           setResponseMessage("Message sent successfully!");
           setIsLoading(false);
           setFormData({
@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
             message: "",
           });
         },
-        (error: any) => {
+        () => {
           setResponseMessage("An error occurred, please try again.");
           setIsLoading(false);
         }

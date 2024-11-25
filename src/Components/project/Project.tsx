@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import projectImage1 from "/AboutPics/bee.jpg";
 import projectImage2 from "/profilePic.png";
 import { TiltCard } from "../HoverCard/HoverCard";
@@ -28,9 +28,6 @@ const MyProject: React.FC = () => {
     },
     // Add more projects as needed
   ];
-
-  // State to manage which image is displayed
-  const [activeProject, setActiveProject] = useState<number | null>(null);
 
   return (
     <TiltCard

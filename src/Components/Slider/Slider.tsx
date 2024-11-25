@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Welcome from "../Welcom/Welcom";
 import AboutMe from "../AboutMe/AboutMe";
 import Project from "../project/Project";
-import { TiltCard } from "../HoverCard/HoverCard";
 import Contact from "../contactMe/Contact";
 
 function Slider() {
