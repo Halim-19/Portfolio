@@ -1,14 +1,14 @@
 // App.tsx
 import React from "react";
-import AppRoutes from "./Routes";
 import "./App.css";
 import blob from "/blob.gif";
 import { motion } from "framer-motion";
+import Home from "./Components/Home/Home";
 
 const App: React.FC = () => {
   return (
     <>
-      <AppRoutes />
+      <Home />
 
       <motion.img
         initial={{ opacity: 0 }}
